@@ -18,3 +18,12 @@ Unstructured data has internal structure but is not structured via pre-defined d
 * Scientific data: Oil and gas exploration, space exploration, seismic imagery, atmospheric data.
 * Digital surveillance: Surveillance photos and video.
 * Sensor data: Traffic, weather, oceanographic sensors.
+## Semi-Structured Data
+Semi-structured data maintains internal tags and markings that identify separate data elements, which enables information grouping and hierarchies. Amongst others includes:
+* Markup language XML This is a semi-structured document language. 
+* Open standard JSON (JavaScript Object Notation) JSON is another semi-structured data interchange format. 
+## Other Data
+Loosely grouped for now.
+* 3RD Party Data
+* Cloud Data
+* Big Data 
