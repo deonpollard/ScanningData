@@ -1,5 +1,5 @@
 # Welcome!
-Welcome to the ScanningData GitHub Repository! This Repository contains sets of scripts essential for data scanning in support of the [Capiible Platform](http://www.senya.co.uk/capiible.html), although it could be use completely stand-alone.  Early days for the Repository.
+Welcome to the ScanningData GitHub Repository! This Repository contains sets of scripts essential for data scanning in support of the [seeWaybeyond Platform](https://www.seewaybeyond.com), although it could be use completely stand-alone.  Early days for the Repository.
 # Scanning the following Data
 ## Structured Data
 Structured data usually resides in relational databases (RDBMS). Fields store length-delineated data phone numbers, Social Security numbers, or ZIP codes. Even text strings of variable length like names are contained in records, making it a simple matter to search.
