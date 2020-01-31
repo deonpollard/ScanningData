@@ -1,6 +1,6 @@
 # +-------------------------------------------------------------------------------------------+
 # | Author...........: Deon Pollard.  Deon Pollard & Associates                               |
-# | Date.............: 15 Aug 2019                                                            |
+# | Date.............: 15 Aug 2019 Updated 20200131 - DMO                                     |
 # | Description......: Script to list schema from SQL DB and get into seeWaybeyond format     |
 # |                    will be included.                                                      |
 # | Parameters.......: $OPath Path and filename to output CSV file containing scanned content |
@@ -38,8 +38,8 @@ $Increment=0
       $Counter++
       $Increment++
       $obj = new-object PSObject
-        $obj | add-member -membertype NoteProperty -name "DMOName" -value $DMOName
-	    $obj | add-member -membertype NoteProperty -name "ProjectName" -value $ProjectName
+        $obj | add-member -membertype NoteProperty -name "Endeavor" -value $DMOName
+	    $obj | add-member -membertype NoteProperty -name "Project" -value $ProjectName
 	    $obj | add-member -membertype NoteProperty -name "UserName" -value $UserName
         $obj | add-member -membertype NoteProperty -name "SrcObjID" -value "Database"
         $obj | add-member -membertype NoteProperty -name "SrcName" -value $DBName
